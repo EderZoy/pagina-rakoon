@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Te permite usar icnocos, imagenes SVG, fuentes-->
+    <link rel="icon" href="img/rakoon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Rakoon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-xxx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+      <header class="encabezado">
+        <div class="logo">
+          <img src="img/logo-rakoon.png" alt="" class="imglogo" />
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li>
+              <a href="#problematica" onclick="seleccionar()">PROBLEMATICA</a>
+            </li>
+            <li><a href="#impacto" onclick="seleccionar()">BENEFICIOS</a></li>
+            <li>
+              <a href="#funcionamiento" onclick="seleccionar()"
+                >¿COMO FUNCIONA?</a
+              >
+            </li>
+            <li>
+              <a href="#BitMinds" onclick="seleccionar()">¿QUIENES SOMOS?</a>
+            </li>
+            <li>
+              <a href="#Contactanos" onclick="seleccionar()">CONTACTANOS</a>
+            </li>
+            <!--<li><a href="#contacto">CONTACTO</a></li>-->
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!--INICIO-->
+    <section id="inicio" class="inicio">
+      <div class="container">
+        <div class="fila">
+          <div class="columna">
+            <h1 class="unete">ÚNETE A NOSOTROS PARA REDUCIR EL</h1>
+            <h1 class="alternative">desperdicio de alimentos</h1>
+            <h3 class="descri">
+              Rakoon propone una evolución en la forma en que interactuamos con
+              los alimentos ¿Como? Brindando una plataforma en donde conectamos
+              a establecimientos gastronomicos con consumidores, ayudando a
+              reducir el desperdicio de alimentos y brindando oportunidades de
+              ahorro para todos!
+            </h3>
+          </div>
+          <div class="columna">
+            <img src="img/Media/bolsass.png" alt="" class="imagenBolsa" />
+          </div>
+        </div>
+        <div class="conocemas">
+          <div class="conocemass">
+            <p>Conoce más sobre este proyecto</p>
+          </div>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-down"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="problematica" class="problematica">
+      <div class="container">
+        <div class="fila">
+          <div class="columna">
+            <img src="img/Media/spray.png" alt="" />
+          </div>
+          <div class="columna">
+            <h1 class="sabias">¿Sabias que...</h1>
+            <h2>
+              a nivel global se desperdicia casi el <span>40% </span>de los
+              alimentos que se producen?
+            </h2>
+            <p>
+              Segun la WWF se estima que cada año tiramos a la basura 2.500
+              millones de toneladas de comida.
+            </p>
+            <h1 class="alternative"></h1>
+          </div>
+        </div>
+        <h3 class="descri">
+          Con Rakoon proponemos transformar el desperdicio de alimentos en
+          beneficios para todos, motivando a los <span>ESTABLECIMIENTOS</span> a
+          recuperar el dinero invertido en alimentos que no ha sido
+          comercializado, publicando <span>PAQUETES DE COMIDA</span>, que podran
+          ser adquiridos por cualquier consumidor interesado, a un precio
+          reducido. De esta manera no solo logramos beneficios en lo
+          econónomico, sino tambien en el <span>MEDIOAMBIENTE</span>.
+        </h3>
+        <img src="img/Media/ods12.jpg" class="imagen" />
+        <p style="color: #e9d137">
+          Mediante este proyeto estamos aportando a uno de los objetivos de
+          desarrollo sostenible (ODS)
+        </p>
+        <p>
+          12.3. Reducir el desperdicio de alimentos per cápita mundial y reducir
+          las perdidas de alimentos en las cadenas de producción y suministro.
+        </p>
+        <p>12.6. Alentar a empresas a que adopten prácticas sostenibles.</p>
+      </div>
+      <img src="img/mapachito.png" class="mapache" />
+    </section>
+
+    <!--SOBRE MI-->
+    <section id="impacto" class="impacto">
+      <div class="contenido-seccion">
+        <h2>Beneficios de Rakoon</h2>
+        <p>
+          ¿A quien beneficiamos? El impacto positivo del desarrollo de este
+          proyecto se reflejará principalmente en los consumidores,
+          establecimientos, y el medioambiente.
+        </p>
+
+        <div class="fila">
+          <div class="columna">
+            <h3>Medio Ambiente</h3>
+            <img src="img/Media/tierra.png" class="imgImpacto" />
+            <p class="descripcion">
+              Al reducir el desperdicio de alimentos, ayuda a disminuir la
+              huella de carbono y promueve la sostenibilidad.
+            </p>
+            <p class="descripcion">
+              Cada compra con Rakoon es un paso hacia un planeta mejor
+            </p>
+          </div>
+          <div class="columna">
+            <h3>Establecimientos</h3>
+            <img src="img/Media/restaurant-7864791.png" class="imgImpacto" />
+            <p class="descripcion">
+              Maxima tus ganancias al convertir excedentes en ingresos
+              adicionales.
+            </p>
+            <p class="descripcion">
+              Te brindamos una plataforma para llegar a nuevos clientes y
+              reducir el desperdicio en tu negocio
+            </p>
+          </div>
+
+          <!--Intereses-->
+          <div class="columna">
+            <h3>Consumidores</h3>
+            <div>
+              <img src="img/Media/student.png" class="imgImpactoConsumidores" />
+              <img
+                src="img/Media/money-3597246-3010226.png"
+                class="imgImpactoConsumidores"
+              />
+            </div>
+            <p class="descripcion">
+              Accede a alimentos de calidad a precios reducidos.
+            </p>
+            <p class="descripcion">
+              Come bien y ahorra dinero mientras contribuis a reducir el
+              desperdicio en la comunidad
+            </p>
+          </div>
+        </div>
+
+        <a href="img/Media/Poster-Rakoon.jpg" download="poster-rakoon">
+          <button>
+            Poster informativo <i class="fa-solid fa-circle-down"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!--COMO FUNCIONA-->
+    <section id="funcionamiento" class="funcionamiento">
+      <div class="contenido-seccion">
+        <h2>¿Como funciona?</h2>
+        <div class="fila">
+          <div class="columna">
+            <li>
+              Los <span>establecimientos habilitan sus packs</span> con indicios
+              de la comida que puede contener.
+            </li>
+            <li>
+              Los <span>consumidores</span> podran <span>consultar</span> la
+              disponiblidad de packs en su zona, <span>elegir</span> y
+              <span>reservar</span> para luego disfrutarlo. Tambien podran
+              <span>consultar la información de los establecimientos</span> como
+              comentarios, valoraciones, horarios, packs que ofrece, entre
+              otros.
+            </li>
+            <li>
+              Se brindan <span>estadisticas</span> para ambas partes las cuales
+              <span>reflejan su impacto usando la aplicación</span>, como la
+              cantidad de packs salvados, kilos de comida que evitaro
+              desperdiciar y ahorros o igresos extras generados.
+            </li>
+          </div>
+
+          <div class="columna">
+            <!--IMAGENES DE PROTOTIPOS-->
+            <div class="slider-frame">
+              <ul>
+                <li><img src="img/celu1.png" alt="" /></li>
+                <li><img src="img/celu2.png" alt="" /></li>
+                <li><img src="img/celu3.png" alt="" /></li>
+                <li><img src="img/celu4.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="text">
+          <img src="img/mapachito.png" class="mapache" />
+          <h4>
+            ¡Pronto podras descargar nuestra app y sumarte a redurcir el
+            desperdicio de alimentos!
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!--¿QUIENES SOMOS?-->
+    <section id="BitMinds" class="quienessomos">
+      <div class="contenido-bitminds">
+        <h2>¿Quiénes están detrás de rakoon?</h2>
+
+        <img src="img/Media/logoBitMinds.png" class="imgBitMinds" />
+        <p class="descripcion">
+          Somos un equipo conformado por estudiantes de ingenieria en sistemas
+          de información de la UTN FRVM.
+        </p>
+        <p class="descripcion">
+          Nos unimos para crear Rakoon y aportar desde nuestra area de
+          conocimiento a la problematica del desperdicio de alimentos.
+        </p>
+        <p class="descripcion"></p>
+        <div class="fila circulo-imagenes">
+          <div class="columna-integrante">
+            <div class="imagen-circulo">
+              <img src="img/Media/anibal.jpg" class="imgIntegrante" />
+            </div>
+            <p class="descripcion">Alvarez, Anibal</p>
+          </div>
+          <div class="columna-integrante">
+            <div class="imagen-circulo">
+              <img src="img/Media/jey.jpg" class="imgIntegrante" />
+            </div>
+            <p class="descripcion">Alvarez, Joaquin</p>
+          </div>
+          <div class="columna-integrante">
+            <div class="imagen-circulo">
+              <img src="img/Media/mati.jpg" class="imgIntegrante" />
+            </div>
+            <p class="descripcion">Arias, Matias</p>
+          </div>
+          <div class="columna-integrante">
+            <div class="imagen-circulo">
+              <img src="img/Media/eder2.jpg" class="imgIntegrante" />
+            </div>
+            <p class="descripcion">Zoy, Eder</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--PROYECTOS-->
+    <section id="Contactanos" class="contacto">
+      <div class="contenido-seccion">
+        <h2>Contactanos</h2>
+        <form action="enviar.php" method="post">
+          <label for="email">Tu correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+    </footer>
+
+    <!--Relacion con el archivo JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
