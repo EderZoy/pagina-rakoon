@@ -1980,3 +1980,299 @@ footer {
     margin-right: 40px;
   }
 }
+
+/* Estilos para dispositivos aún más pequeños, como celulares muy pequeños */
+@media screen and (max-width: 360px) {
+  /* Ajusta aún más el tamaño de la fuente en algunos elementos */
+  .imglogo {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .contenedor-header header {
+    height: 40px;
+  }
+
+  /* Ajusta el tamaño de la fuente en el menú principal */
+  .contenedor-header header .logo a {
+    font-size: 25px;
+  }
+  .contenedor-header header ul {
+    display: none; /* Oculta el menú principal */
+  }
+  .nav-responsive {
+    display: block; /* Muestra el menú hamburguesa */
+  }
+
+  .inicio .container {
+    max-width: 350px;
+    margin: auto;
+    align-items: center;
+  }
+  .inicio .fila {
+    display: block;
+  }
+  .inicio .columna .unete {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .inicio .columna .alternative {
+    font-size: 25px;
+    margin-top: -4px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .inicio .columna .descri {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    align-items: center;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  .columna .imagenBolsa {
+    margin-left: 80px;
+    width: 55%;
+    margin-bottom: 50px;
+  }
+
+  .conocemass p {
+    font-size: 15px;
+  }
+
+  .problematica {
+    height: auto;
+  }
+  .problematica .container {
+    max-width: 360px;
+    margin: auto;
+  }
+  .problematica .fila {
+    display: block;
+  }
+
+  .problematica .container .fila .columna img {
+    width: 130px;
+    margin-top: -40px;
+  }
+  .problematica .container .fila .columna .sabias {
+    font-size: 30px;
+  }
+  .problematica .container .fila .columna h2 {
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .problematica .container .fila .columna span {
+    font-size: 20px;
+  }
+  .problematica .container .fila .columna p {
+    font-size: 15px;
+  }
+  .problematica .container h3 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .problematica .container span {
+    font-size: 18px;
+  }
+  .problematica .container .imagen {
+    width: 200px;
+    margin-top: -20px;
+  }
+  .problematica .container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .mapache {
+    width: 100px;
+    margin-bottom: -40px;
+  }
+
+  /* Impacto */
+
+  .impacto {
+    height: auto;
+  }
+
+  .impacto .contenido-seccion {
+    max-width: 350px;
+    margin: auto;
+  }
+  .impacto .contenido-seccion h2 {
+    font-size: 30px;
+    margin-top: -2px;
+  }
+
+  .impacto .fila {
+    display: block;
+  }
+  .impacto .fila .columna {
+    width: 85%;
+    justify-content: center;
+  }
+  .impacto .contenido-seccion .fila .columna h3 {
+    font-size: 30px;
+  }
+  .impacto .contenido-seccion p {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .imgImpacto {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 25%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+  }
+  .imgImpactoConsumidores {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 0; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 20%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+    margin-bottom: 20px;
+  }
+  .impacto .contenido-seccion .fila .columna p {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .impacto button {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .funcionamiento .contenido-seccion {
+    max-width: 350px;
+    margin: auto;
+    height: auto;
+  }
+  .funcionamiento .fila {
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .funcionamiento h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+  }
+
+  .funcionamiento .fila .columna li {
+    font-size: 16px;
+  }
+
+  .slider-frame {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-left: 0px;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: slide 8s infinite alternate ease-in-out;
+  }
+
+  .slider-frame li {
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider-frame img {
+    width: 302px;
+    height: 400px;
+    margin-left: 150px;
+  }
+
+  .text h4 {
+    margin-top: 50px;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .text .mapache {
+    width: 0%;
+  }
+  .quienessomos {
+    height: auto;
+  }
+
+  .quienessomos .contenido-bitminds {
+    max-width: 360px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contenido-bitminds h2 {
+    font-size: 25px;
+  }
+  .contenido-bitminds .imgBitMinds {
+    width: 70%;
+  }
+  .contenido-bitminds p {
+    font-size: 18px;
+  }
+
+  .contenido-bitminds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .circulo-imagenes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .columna-integrante {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    /* Espacio horizontal entre las columnas de integrantes */
+  }
+  /* Estilos para las imágenes circulares */
+  .imagen-circulo {
+    width: 180px; /* Tamaño del círculo */
+    height: 180px; /* Tamaño del círculo */
+  }
+
+  /* Estilos para la descripción del integrante */
+  .descripcion {
+    font-size: 10px;
+    text-align: center;
+  }
+  .contacto {
+    max-width: 360px;
+    margin: auto;
+    height: 70vh;
+  }
+
+  .contacto .contenido-seccion {
+    margin-bottom: 40px;
+  }
+
+  .contacto form {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
