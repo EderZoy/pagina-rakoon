@@ -737,6 +737,97 @@ footer {
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .contenedor-header header {
+    height: 50px;
+  }
+  /*INICIO*/
+
+  .inicio .container {
+    max-width: 1200px;
+  }
+  .descri {
+    margin-left: 0px;
+  }
+
+  /* PROBLEMATICA */
+  .problematica {
+    height: auto;
+  }
+
+  .problematica .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .problematica .container .fila .columna h2 {
+    font-size: 40px;
+  }
+  .problematica .container .fila .columna img {
+    width: 250px;
+  }
+
+  .problematica .container .imagen {
+    width: 300px;
+  }
+
+  /* IMPACTO */
+  .impacto .contenido-seccion {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /*FUNCIONAMIENTO*/
+  .funcionamiento .contenido-seccion {
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+  }
+
+  .funcionamiento h2 {
+    padding: 30px 0 30px 0;
+  }
+
+  .text h4 {
+    margin-top: 30px;
+  }
+
+  .text .mapache {
+    width: 8%;
+    margin-top: -80px;
+  }
+
+  /* Estilos para centrar el contenido y las imágenes en la sección */
+  .quienessomos {
+    height: auto;
+  }
+
+  .quienessomos .contenido-bitminds {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .contenido-bitminds h2 {
+    font-size: 40px;
+  }
+
+  .contenido-bitminds .imgBitMinds {
+    width: 30%;
+  }
+  .contenido-bitminds p {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  /* Estilos para la descripción del integrante */
+  .columna-integrante .descripcion {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .contacto {
+    height: 45vh;
+  }
+}
+
 /* RESPONSIVE MAS DE 768 */
 @media screen and (max-width: 1170px) {
   /* Estilos para pantallas más pequeñas, como tabletas */
@@ -1003,6 +1094,309 @@ footer {
     margin-bottom: 40px;
     max-width: 1000px;
     margin: auto;
+  }
+
+  .contacto form {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Ajusta el tamaño y margen del logo en el encabezado */
+  .imglogo {
+    width: 40%;
+  }
+
+  /* Ajusta el tamaño de la fuente en el menú principal */
+  .contenedor-header header .logo a {
+    font-size: 30px;
+  }
+  .contenedor-header header ul {
+    display: none; /* Oculta el menú principal */
+  }
+  .nav-responsive {
+    display: block; /* Muestra el menú hamburguesa */
+  }
+  nav.responsive {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #3f6558;
+    width: 180px;
+    border-radius: 5px;
+  }
+  nav.responsive ul {
+    display: block !important;
+  }
+  nav.responsive ul li {
+    border-bottom: 1px solid #26353b;
+    padding: 10px 0;
+  }
+
+  .inicio .container {
+    max-width: 760px;
+    margin: auto;
+    margin-left: 40px;
+    height: auto;
+  }
+  .inicio .fila {
+    display: block;
+  }
+  .inicio .columna .unete {
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .inicio .columna .alternative {
+    font-size: 55px;
+  }
+  .inicio .columna .descri {
+    font-size: 25px;
+  }
+  .columna .imagenBolsa {
+    margin-left: 160px;
+    width: 50%;
+  }
+
+  .conocemas {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centra horizontalmente el contenido */
+    position: absolute;
+    bottom: 10px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+    left: 50%; /* Centra horizontalmente el elemento */
+    transform: translateX(-50%); /* Centra horizontalmente el elemento */
+  }
+
+  .conocemass p {
+    font-size: 25px;
+  }
+
+  .arrow-icon i {
+    font-size: 40px; /* Tamaño del icono */
+    color: #e9d137; /* Color normal */
+    transition: color 0.3s; /* Agrega una transición para el cambio de color */
+  }
+
+  .problematica {
+    height: auto;
+  }
+  .problematica .container {
+    max-width: 750px;
+    margin: auto;
+  }
+  .problematica .fila {
+    display: block;
+  }
+
+  .problematica .container .fila .columna img {
+    width: 200px;
+    margin-top: -40px;
+  }
+  .problematica .container .fila .columna .sabias {
+    font-size: 50px;
+  }
+  .problematica .container .fila .columna h2 {
+    font-size: 40px;
+    margin-top: -10px;
+  }
+  .problematica .container .fila .columna span {
+    font-size: 30px;
+  }
+  .problematica .container .fila .columna p {
+    font-size: 20px;
+  }
+  .problematica .container h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .problematica .container span {
+    font-size: 25px;
+  }
+  .problematica .container .imagen {
+    width: 300px;
+  }
+  .problematica .container p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .mapache {
+    width: 140px;
+    margin-bottom: -40px;
+  }
+  /* Impacto */
+
+  .impacto {
+    height: auto;
+  }
+
+  .impacto .contenido-seccion {
+    max-width: 760px;
+    margin: auto;
+  }
+  .impacto .contenido-seccion h2 {
+    font-size: 55px;
+    margin-top: -10px;
+  }
+
+  .impacto .fila {
+    display: block;
+  }
+  .impacto .fila .columna {
+    width: 95%;
+    justify-content: center;
+  }
+  .impacto .contenido-seccion .fila .columna h3 {
+    font-size: 40px;
+  }
+  .impacto .contenido-seccion p {
+    font-size: 25px;
+    text-align: center;
+  }
+  .imgImpacto {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 20%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+  }
+  .imgImpactoConsumidores {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 0; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 17%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+    margin-bottom: 20px;
+  }
+  .impacto .contenido-seccion .fila .columna p {
+    font-size: 23px;
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .impacto button {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .funcionamiento .contenido-seccion {
+    max-width: 760px;
+    margin: auto;
+    height: auto;
+  }
+  .funcionamiento .fila {
+    flex-direction: column;
+  }
+
+  .funcionamiento h2 {
+    font-size: 55px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+  }
+
+  .funcionamiento .fila .columna li {
+    font-size: 25px;
+  }
+
+  .slider-frame {
+    width: 540px;
+    height: 600px;
+    overflow: hidden;
+    margin-top: -70px;
+    margin-left: 60px;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: slide 8s infinite alternate ease-in-out;
+  }
+
+  .slider-frame li {
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider-frame img {
+    width: 502px;
+    height: 600px;
+    margin-left: 300px;
+  }
+
+  .text h4 {
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .text .mapache {
+    width: 0%;
+  }
+  .quienessomos {
+    height: auto;
+  }
+
+  .quienessomos .contenido-bitminds {
+    max-width: 760px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contenido-bitminds h2 {
+    font-size: 40px;
+  }
+
+  .contenido-bitminds p {
+    font-size: 25px;
+  }
+
+  .contenido-bitminds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .circulo-imagenes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .columna-integrante {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    /* Espacio horizontal entre las columnas de integrantes */
+  }
+  /* Estilos para las imágenes circulares */
+  .imagen-circulo {
+    width: 200px; /* Tamaño del círculo */
+    height: 200px; /* Tamaño del círculo */
+  }
+
+  /* Estilos para la descripción del integrante */
+  .descripcion {
+    font-size: 14px;
+    text-align: center;
+  }
+  .contacto {
+    max-width: 768px;
+    margin: auto;
+    height: 40vh;
+  }
+
+  .contacto .contenido-seccion {
+    margin-bottom: 40px;
   }
 
   .contacto form {
@@ -1295,42 +1689,294 @@ footer {
 }
 
 /* Estilos para dispositivos aún más pequeños, como celulares muy pequeños */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   /* Ajusta aún más el tamaño de la fuente en algunos elementos */
+  .imglogo {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  /* Ajusta el tamaño de la fuente en el menú principal */
   .contenedor-header header .logo a {
-    font-size: 24px;
+    font-size: 30px;
   }
-  .alternative {
-    font-size: 24px;
+  .contenedor-header header ul {
+    display: none; /* Oculta el menú principal */
   }
-  .problematica .container .fila .columna .sabias {
-    font-size: 24px;
+  .nav-responsive {
+    display: block; /* Muestra el menú hamburguesa */
   }
-  .problematica .container .fila .columna h2 {
+
+  .inicio .container {
+    max-width: 350px;
+    margin: auto;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .inicio .fila {
+    display: block;
+  }
+  .inicio .columna .unete {
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .inicio .columna .alternative {
+    font-size: 25px;
+    margin-top: -4px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .inicio .columna .descri {
+    font-size: 20px;
+    margin-left: 40px;
+    align-items: center;
+    text-align: justify;
+    font-weight: lighter;
+  }
+  .columna .imagenBolsa {
+    margin-left: 80px;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+
+  .conocemass p {
     font-size: 20px;
   }
+
+  .problematica {
+    height: auto;
+  }
+  .problematica .container {
+    max-width: 360px;
+    margin: auto;
+  }
+  .problematica .fila {
+    display: block;
+  }
+
+  .problematica .container .fila .columna img {
+    width: 180px;
+    margin-top: -40px;
+  }
+  .problematica .container .fila .columna .sabias {
+    font-size: 40px;
+  }
+  .problematica .container .fila .columna h2 {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
   .problematica .container .fila .columna span {
-    font-size: 24px;
+    font-size: 25px;
   }
   .problematica .container .fila .columna p {
-    font-size: 14px;
+    font-size: 20px;
+  }
+  .problematica .container h3 {
+    font-size: 20px;
+    margin-top: 30px;
   }
   .problematica .container span {
     font-size: 20px;
   }
+  .problematica .container .imagen {
+    width: 200px;
+    margin-top: -20px;
+  }
+  .problematica .container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .mapache {
+    width: 120px;
+    margin-bottom: -40px;
+  }
+
+  /* Impacto */
+
+  .impacto {
+    height: auto;
+  }
+
+  .impacto .contenido-seccion {
+    max-width: 360px;
+    margin: auto;
+  }
+  .impacto .contenido-seccion h2 {
+    font-size: 33px;
+    margin-top: -2px;
+  }
+
+  .impacto .fila {
+    display: block;
+  }
+  .impacto .fila .columna {
+    width: 90%;
+    justify-content: center;
+  }
+  .impacto .contenido-seccion .fila .columna h3 {
+    font-size: 30px;
+  }
+  .impacto .contenido-seccion p {
+    font-size: 19px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .imgImpacto {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 auto; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 25%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+  }
+  .imgImpactoConsumidores {
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin: 0 0; /* Centra horizontalmente la imagen en su contenedor */
+    max-width: 20%; /* Limita el tamaño de la imagen al 50% del ancho del contenedor */
+    margin-bottom: 20px;
+  }
+  .impacto .contenido-seccion .fila .columna p {
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .impacto button {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .funcionamiento .contenido-seccion {
+    max-width: 360px;
+    margin: auto;
+    height: auto;
+  }
+  .funcionamiento .fila {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   .funcionamiento h2 {
-    font-size: 24px;
+    font-size: 40px;
+    text-align: center;
     padding: 30px 0 20px 0;
   }
-  .funcionamiento .columna li {
-    font-size: 16px;
+
+  .funcionamiento .fila .columna li {
+    font-size: 20px;
+  }
+
+  .slider-frame {
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-left: 0px;
+  }
+
+  .slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 200%;
+
+    animation: slide 8s infinite alternate ease-in-out;
+  }
+
+  .slider-frame li {
+    width: 100%;
+    list-style: none;
+  }
+
+  .slider-frame img {
+    width: 302px;
+    height: 400px;
+    margin-left: 150px;
+  }
+
+  .text h4 {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .text .mapache {
+    width: 0%;
+  }
+  .quienessomos {
+    height: auto;
+  }
+
+  .quienessomos .contenido-bitminds {
+    max-width: 360px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .contenido-bitminds h2 {
+    font-size: 30px;
+  }
+  .contenido-bitminds .imgBitMinds {
+    width: 70%;
+  }
+  .contenido-bitminds p {
+    font-size: 20px;
+  }
+
+  .contenido-bitminds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .circulo-imagenes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .columna-integrante {
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+    /* Espacio horizontal entre las columnas de integrantes */
+  }
+  /* Estilos para las imágenes circulares */
+  .imagen-circulo {
+    width: 200px; /* Tamaño del círculo */
+    height: 200px; /* Tamaño del círculo */
+  }
+
+  /* Estilos para la descripción del integrante */
+  .descripcion {
+    font-size: 14px;
+    text-align: center;
   }
   .contacto {
-    max-width: 640px;
+    max-width: 375px;
     margin: auto;
-    height: 70vh;
+    height: 50vh;
   }
+
   .contacto .contenido-seccion {
     margin-bottom: 40px;
+  }
+
+  .contacto form {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
